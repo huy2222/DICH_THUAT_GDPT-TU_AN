@@ -31,7 +31,7 @@ function TichFunction() {
     meta.value=string;  
     document.getElementById('lengthmeta').innerHTML = meta.value.length;
     // SoundTe.pause() dừng âm thanh
-    SoundTich.play()
+    // SoundTich.play()
 }
 tich.addEventListener('click',TichFunction);
 
@@ -43,7 +43,7 @@ function TeFunction() {
      } 
     meta.value=string;     
     document.getElementById('lengthmeta').innerHTML = meta.value.length;
-    SoundTe.play()
+    //SoundTe.play()
 
 }
 te.addEventListener('click',TeFunction);
